@@ -43,7 +43,7 @@ function decrement(n) {
 // }
 
 function makeInt(n) {
-    toString = parseInt(n, 10);
+    const toString = parseInt(n, 10);
     return toString;
 }
 
